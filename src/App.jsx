@@ -4,7 +4,7 @@ import Visitor from "./components/MainComp/Visitor/Visitor"
 import Order from "./components/MainComp/Order/Order"
 import Footer from "./components/Footer/Footer"
 import Dashboard from "./components/MainComp/Dashboard/Card"
-import Navbar from "./components/Navbar/Navbar"
+import Sidebar from "./components/Sidebar/Sidebar"
 import Income from  "./components/MainComp/Income/Income"
 import Transaction from "./components/MainComp/Transaction/Transaction"
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
 
-        <Navbar/>
+        <Sidebar/>
         <Dashboard/>
         <Income/>
         <Transaction/>
