@@ -18,7 +18,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
-import Profile from "../../Layout/Header/Profile"
+import Header from '../../Layout/Header/Profile';
 
 const drawerWidth = 250;
 
@@ -110,7 +110,7 @@ export default function Sidebar() {
           </IconButton>
           <Typography variant="h6" noWrap component="div" display={"flex"} justifyContent={"space-between"} width={"100%"}>
             <input placeholder='Ctrl + K'/>
-            <Profile/>
+            <Header/>
           </Typography>
         </Toolbar>
       </AppBar>
