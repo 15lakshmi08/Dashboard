@@ -2,16 +2,16 @@ import './App.css'
 import Sales from "./components/MainContent/Sales/Sales"
 import Visitor from "./components/MainContent/Visitor/Visitor"
 import Order from "./components/MainContent/Order/Order"
-import Footer from "./components/Footer/Footer"
+import Footer from "./Layout/Footer/Footer"
 import Dashboard from "./components/MainContent/Dashboard/Card"
 import Sidebar from "./components/Sidebar/Sidebar"
 import Income from  "./components/MainContent/Income/Income"
 import Transaction from "./components/MainContent/Transaction/Transaction"
-import Profile from './components/Header/Profile'
+import Profile from './Layout/Header/Profile'
 import Login from "./components/Sidebar/Authentication/Login"
 
 
-import Layout from "./components/Layout/Layout"
+import Layout from "./Layout/Layout"
 
 function App() {
 

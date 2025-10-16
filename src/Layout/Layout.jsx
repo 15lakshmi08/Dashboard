@@ -1,5 +1,5 @@
-import Sidebar from "../Sidebar/Sidebar"
-import Header from "../Header/Profile"
+import Sidebar from "../components/Sidebar/Sidebar"
+import Header from "../Layout/Header/Profile"
 const Layout = ({ children }) => {
   return (
     <div className="lg:flex h-screen bg-[#f1f5f9]">
