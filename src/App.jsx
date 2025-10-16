@@ -7,12 +7,16 @@ import Dashboard from "./components/MainContent/Dashboard/Card"
 import Sidebar from "./components/Sidebar/Sidebar"
 import Income from  "./components/MainContent/Income/Income"
 import Transaction from "./components/MainContent/Transaction/Transaction"
+import Profile from './components/Header/Profile'
+import Login from "./components/Sidebar/Authentication/Login"
+
+
+import Layout from "./components/Layout/Layout"
 
 function App() {
 
   return (
     <>
-    <h1>Hello</h1>
         {/* <Sidebar/>
         <Dashboard/>
         <Income/>
@@ -21,6 +25,25 @@ function App() {
         <Order />
         <Sales />
         <Footer/> */}
+
+      
+      {/* <Layout/> */}
+
+
+
+
+        <Login/>
+        <Layout>
+          <Dashboard/>
+          <Income/>
+          <Transaction/>
+          <Visitor/>
+          <Order />
+          <Sales />
+        </Layout>
+        <Footer/>
+
+        {/* <Sidebar/> */}
     </>
   )
 }

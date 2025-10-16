@@ -11,7 +11,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import Setting from './Setting';
 
-export default function AccountMenu() {
+export default function Header() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -32,7 +32,6 @@ const CartBadge = styled(Badge)`
   return (
     <React.Fragment>
       <Box sx={{ display: 'flex',justifyContent:"right", alignItems: 'center', textAlign: 'center',gap:"10px" }}>
-
         <a
       href="https://github.com/codedthemes/mantis-free-react-admin-template"
       target="_blank"
